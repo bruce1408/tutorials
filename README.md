@@ -23,7 +23,7 @@ Below is a list of services that can output ONNX models customized for your data
 | [Caffe](https://github.com/BVLC/caffe) | [apple/coremltools](https://github.com/apple/coremltools) and [onnx/onnxmltools](https://github.com/onnx/onnxmltools) | [Example](https://github.com/onnx/onnx-docker/blob/master/onnx-ecosystem/converter_scripts/caffe_coreml_onnx.ipynb) |
 | [Caffe2](https://caffe2.ai) | [part of caffe2 package](https://github.com/pytorch/pytorch/tree/master/caffe2/python/onnx) | [Example](tutorials/Caffe2OnnxExport.ipynb) |
 | [Chainer](https://chainer.org/) | [chainer/onnx-chainer](https://github.com/chainer/onnx-chainer) | [Example](tutorials/ChainerOnnxExport.ipynb) |
-| [Cognitive Toolkit (CNTK)](https://www.microsoft.com/en-us/cognitive-toolkit/) | [built-in](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-your-machine) | [Example](tutorials/CntkOnnxExport.ipynb) |
+| [Cognitive Toolkit (CNTK)](https://learn.microsoft.com/en-us/cognitive-toolkit//) | [built-in](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-your-machine) | [Example](tutorials/CntkOnnxExport.ipynb) |
 | [CoreML (Apple)](https://developer.apple.com/documentation/coreml) | [onnx/onnxmltools](https://github.com/onnx/onnxmltools) | [Example](https://github.com/onnx/onnx-docker/blob/master/onnx-ecosystem/converter_scripts/coreml_onnx.ipynb) |
 | [Keras](https://github.com/keras-team/keras) | [onnx/tensorflow-onnx](https://github.com/onnx/tensorflow-onnx) | [Example](https://github.com/onnx/tensorflow-onnx/blob/master/tutorials/keras-resnet50.ipynb) | n/a |
 | [LibSVM](https://github.com/cjlin1/libsvm) | [onnx/onnxmltools](https://github.com/onnx/onnxmltools) | [Example](https://github.com/onnx/onnx-docker/blob/master/onnx-ecosystem/converter_scripts/libsvm_onnx.ipynb) | n/a |
@@ -43,7 +43,7 @@ Once you have an ONNX model, it can be scored with a variety of tools.
 | Framework / Tool | Installation | Tutorial |
 | --- | --- | --- |
 | [Caffe2](https://caffe2.ai) | [Caffe2](https://github.com/pytorch/pytorch/tree/master/caffe2/python/onnx) | [Example](tutorials/OnnxCaffe2Import.ipynb) |
-| [Cognitive Toolkit (CNTK)](https://www.microsoft.com/en-us/cognitive-toolkit/) | [built-in](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-your-machine) | [Example](tutorials/OnnxCntkImport.ipynb)|
+| [Cognitive Toolkit (CNTK)](https://learn.microsoft.com/en-us/cognitive-toolkit//) | [built-in](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-your-machine) | [Example](tutorials/OnnxCntkImport.ipynb)|
 | [CoreML (Apple)](https://developer.apple.com/documentation/coreml) | [onnx/onnx-coreml](https://github.com/onnx/onnx-coreml) | [Example](tutorials/OnnxCoremlImport.ipynb)|
 | [MATLAB](https://www.mathworks.com/) | [Deep Learning Toolbox Converter](https://www.mathworks.com/matlabcentral/fileexchange/67296) | [Documentation and Examples](https://www.mathworks.com/help/deeplearning/ref/importonnxnetwork.html) |
 | [Menoh](https://github.com/pfnet-research/menoh) | [Github Packages](https://github.com/pfnet-research/menoh/releases) or from [Nuget](https://www.nuget.org/packages/Menoh/) | [Example](tutorials/OnnxMenohHaskellImport.ipynb) |
@@ -66,7 +66,7 @@ Tutorials demonstrating how to use ONNX in practice for varied scenarios across 
   * [Cortex](https://towardsdatascience.com/how-to-deploy-onnx-models-in-production-60bd6abfd3ae)
   * MXNet
     * [MXNet Model Server](tutorials/ONNXMXNetServer.ipynb)
-    * [AWS SageMaker and MXNet](https://github.com/awslabs/amazon-sagemaker-examples/blob/master/sagemaker-python-sdk/mxnet_onnx_eia/mxnet_onnx_eia.ipynb)
+    * [AWS SageMaker and MXNet](https://github.com/aws/amazon-sagemaker-examples/blob/v0.1.0/sagemaker-python-sdk/mxnet_onnx_eia/mxnet_onnx_eia.ipynb)
     * [MXNet to ONNX to ML.NET with SageMaker, ECS and ECR](https://cosminsanda.com/posts/mxnet-to-onnx-to-ml.net-with-sagemaker-ecs-and-ecr/) - external link
 * ONNX Runtime
   * [ONNX Runtime Tutorials](https://onnxruntime.ai/docs/tutorials/)
@@ -107,6 +107,6 @@ Tutorials demonstrating how to use ONNX in practice for varied scenarios across 
 
 ## Contributing
 
-We welcome improvements to the convertor tools and contributions of new ONNX bindings. Check out [contributor guide](https://github.com/onnx/onnx/blob/main/docs/CONTRIBUTING.md) to get started.
+We welcome improvements to the convertor tools and contributions of new ONNX bindings. Check out [contributor guide](https://github.com/onnx/onnx/blob/main/CONTRIBUTING.md) to get started.
 
 Use ONNX for something cool? Send the tutorial to this repo by submitting a PR.
