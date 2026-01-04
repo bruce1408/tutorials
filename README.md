@@ -7,7 +7,8 @@
 
 ## Getting ONNX models
 
-* Pre-trained models: Many pre-trained ONNX models are provided for common scenarios in the [ONNX Model Zoo](https://github.com/onnx/models).
+* Pre-trained models (validated): Many pre-trained ONNX models are provided for common scenarios in the [ONNX Model Zoo](https://github.com/onnx/models/tree/main/validated)
+* Pre-trained models (non-validated): Many pre-trained ONNX models are provided for common scenarios in the [ONNX Model Zoo](https://github.com/onnx/models).
 * Services: Customized ONNX models are generated for your data by cloud based services (see below)
 * Convert models from various frameworks (see below)
 
@@ -54,7 +55,7 @@ Once you have an ONNX model, it can be scored with a variety of tools.
 | [Tensorflow](https://www.tensorflow.org/) | [onnx-tensorflow](https://github.com/onnx/onnx-tensorflow) | [Example](tutorials/OnnxTensorflowImport.ipynb)|
 | [TensorRT](https://developer.nvidia.com/tensorrt) | [onnx-tensorrt](https://github.com/onnx/onnx-tensorrt) | [Example](https://github.com/onnx/onnx-tensorrt/blob/master/README.md) |
 | [Windows ML](https://docs.microsoft.com/en-us/windows/ai/windows-ml) | Pre-installed on [Windows 10](https://docs.microsoft.com/en-us/windows/ai/release-notes) | [API](https://docs.microsoft.com/en-us/windows/ai/api-reference) <br>Tutorials - [C++ Desktop App](https://docs.microsoft.com/en-us/windows/ai/get-started-desktop), [C# UWP App](https://docs.microsoft.com/en-us/windows/ai/get-started-uwp) <br> [Examples](https://docs.microsoft.com/en-us/windows/ai/tools-and-samples) |
-| [Vespa.ai](https://vespa.ai) | [Vespa Getting Started Guide](https://docs.vespa.ai/en/getting-started.html) | [Real Time ONNX Inference](https://github.com/vespa-engine/sample-apps/tree/master/model-inference) <br>Distributed Real Time ONNX Inference for [Search and Passage Ranking](https://github.com/vespa-engine/sample-apps/blob/master/msmarco-ranking/passage-ranking-README.md)|
+| [Vespa.ai](https://vespa.ai) | [Vespa Getting Started Guide](https://docs.vespa.ai/en/getting-started.html) | [Real Time ONNX Inference](https://github.com/vespa-engine/sample-apps/tree/master/model-inference) <br>Distributed Real Time ONNX Inference for [Search and Passage Ranking](https://github.com/vespa-engine/sample-apps/blob/master/msmarco-ranking/README.md)|
 
 
 ## End-to-End Tutorials
@@ -104,7 +105,9 @@ Tutorials demonstrating how to use ONNX in practice for varied scenarios across 
 * [Float16 <-> Float32 converter](https://github.com/onnx/onnx-docker/blob/master/onnx-ecosystem/converter_scripts/float32_float16_onnx.ipynb)
 * [Version conversion](tutorials/VersionConversion.md)
 
-
+## Application of ONNX
+* [Explainable AI for ONNX models](tutorials/XAI4ONNX_dianna_overview.ipynb)
+  
 ## Contributing
 
 We welcome improvements to the convertor tools and contributions of new ONNX bindings. Check out [contributor guide](https://github.com/onnx/onnx/blob/main/CONTRIBUTING.md) to get started.
